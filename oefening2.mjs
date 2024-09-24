@@ -6,5 +6,5 @@ let jeGetal1 = parseFloat(await userInput.question("Geef je eerste getal:"))
 
 let jeGetal2 = parseFloat(await userInput.question("Geef je tweede getal:"))
 
-console.log("De som is" + ' '+ jeGetal1 * jeGetal2)
+console.log("De som is" + ' '+ (jeGetal1 + jeGetal2))
 
