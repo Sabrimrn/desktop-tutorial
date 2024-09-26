@@ -13,6 +13,5 @@ let aantalUren = parseFloat(await userInput.question("Geef het aantal uren:"))
 let aantalMinuten = parseFloat(await userInput.question("Geef het aantal minuten:"))
 let aantalSeconden = parseFloat(await userInput.question("Geef het aantal seconden:"))
 
- 
-console.log((aantalDagen * secondenInEenDag) + (aantalUren * secondenInEenUur) + (aantalMinuten * secondenInEenMinuut) + seconden)
-// Ik weet dat dit fout is maar ik heb veel geprobeerd en ik kom er niet uit dus hoop dat ik in de les kan vragen wat ik fout doe
+ let uitkomst = (aantalDagen * secondenInEenDag) + (aantalUren * secondenInEenUur) + (aantalMinuten * secondenInEenMinuut) + aantalSeconden
+console.log(uitkomst)
